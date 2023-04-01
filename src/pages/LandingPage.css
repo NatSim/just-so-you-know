@@ -1,5 +1,6 @@
 /* Landing Page styling here */
 .main-container {
+    /* max-width: 100%; */
     display: flex;
     justify-content: center;
     flex-flow: column;
@@ -47,10 +48,20 @@
   }
 
   .report-button{
-    border-radius: 10px;
+    border-radius: 5px;
     color:white;
     background-color:#E71E85;
+    border-color:#E71E85;
   }
+
+  input, .main-container {
+    border-color:#eb88427d;
+     }
+.radius-right {
+    border-radius: 0px 10px 10px 0px;
+    border-color:#eb88427d;
+}
+
 
  /* original svg width="653" height="272" 
 new width 750 height 200 */
