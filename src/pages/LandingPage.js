@@ -1,4 +1,6 @@
 import "../App.css";
+//style sheets
+import "./LandingPage.css"
 // import ReactDOM from "react-dom/client";
 import { useNavigate } from "react-router-dom";
 //import logo
@@ -23,8 +25,6 @@ const LandingPage = () => {
         <h1>Report Incident</h1>
         <h2>Experienced something unsafe?</h2>
      <button onClick={()=>navigate("/report")}>Report</button>
-
-
       </div>  
     </div>
   </div>
