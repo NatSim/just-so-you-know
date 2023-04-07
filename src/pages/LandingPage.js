@@ -4,11 +4,8 @@ import "./LandingPage.css"
 // import ReactDOM from "react-dom/client";
 import { useNavigate } from "react-router-dom";
 //import logo
-import justSoYouKnow from "../images/Logo.png"
 import { ReactComponent as JustSoYouKnowLogo } from '../images/logo_jsyk.svg';
 
-
-console.log('logo',justSoYouKnow)
 
 const LandingPage = () => {
   const navigate = useNavigate()
