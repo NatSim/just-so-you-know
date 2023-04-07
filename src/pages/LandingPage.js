@@ -17,7 +17,11 @@ const LandingPage = () => {
 
         <h2 className="heading">Check My Evening</h2>
         <div>
-          <input type="text" placeholder="Find a venue"></input>
+          <input
+            className="place-holder-text"
+            type="text"
+            placeholder="Find a venue"
+          ></input>
           <button
             className="venue-button radius-right"
             onClick={() => navigate("/venue")}

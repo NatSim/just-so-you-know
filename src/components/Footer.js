@@ -13,11 +13,15 @@ const Footer = () => {
                 alt="just so you know logo"
               />
             </div>
-            <div>hello@justsoyouknow.com</div>
+            <div className="email-link">
+              <a href="mailto:hello@justsoyouknow.com">
+                hello@justsoyouknow.com
+              </a>
+            </div>
           </div>
           <div className="footer-content-container">
             <ul>
-              <li>Quick links</li>
+              <li className="quick-links">Quick links</li>
               <li>About us</li>
               <li>Contact us</li>
               <li>Policy</li>

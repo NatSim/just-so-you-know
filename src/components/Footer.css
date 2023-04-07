@@ -8,6 +8,13 @@ footer {
     color: white;
 }
 
+/* Galaxy fold */
+@media screen and (max-width: 280px) {
+    footer {
+        height: fit-content;
+    }
+  }
+
 .footer-logo {
     width: 100px;
     height: auto;
@@ -28,6 +35,13 @@ ul {
     /* text-decoration: none; */
 }
 
-/* .footer-content-container {
-    padding: 10px 0px 10px 0px;
-} */
+.quick-links {
+    font-family: DM Serif Display;
+    padding: 0px 0px 10px;
+}
+
+.email-link a {
+    padding: 20px 0px 0px;
+    color:white;
+}
+
