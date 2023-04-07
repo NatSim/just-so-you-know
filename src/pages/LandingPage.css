@@ -1,6 +1,5 @@
 /* Landing Page styling here */
 .main-container {
-    /* max-width: 100%; */
     display: flex;
     justify-content: center;
     flex-flow: column;
@@ -33,13 +32,14 @@
     flex-flow: column;
     align-items: center;
     bottom: 0;
-  
+         
   }
 
   .image-container {
     /* width:300px;
     height:150px; */
     text-align:center;
+      
   }
 
   .venue-button {
