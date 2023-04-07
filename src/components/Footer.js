@@ -1,5 +1,6 @@
 import "../components/Footer.css";
 import { ReactComponent as JustSoYouKnowLogo } from "../images/logo_jsyk.svg";
+import MailOutlineRoundedIcon from "@mui/icons-material/MailOutlineRounded";
 
 const Footer = () => {
   return (
@@ -14,9 +15,14 @@ const Footer = () => {
               />
             </div>
             <div className="email-link">
-              <a href="mailto:hello@justsoyouknow.com">
-                hello@justsoyouknow.com
-              </a>
+              <div>
+                <MailOutlineRoundedIcon />
+              </div>
+              <div>
+                <a href="mailto:hello@justsoyouknow.com">
+                  hello@justsoyouknow.com
+                </a>
+              </div>
             </div>
           </div>
           <div className="footer-content-container">

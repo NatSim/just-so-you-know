@@ -21,7 +21,7 @@ footer {
 }
 
 .logo-spacing {
-padding: 10px 0px;
+padding: 20px 0px;
 }
 
 .footer-container {
@@ -40,8 +40,14 @@ ul {
     padding: 0px 0px 10px;
 }
 
-.email-link a {
+.email-link a  {
     padding: 20px 0px 0px;
     color:white;
+    /* display: flex;
+    align-items: normal; */
 }
 
+.email-link {
+    display: flex;
+    align-items: normal;
+  }
