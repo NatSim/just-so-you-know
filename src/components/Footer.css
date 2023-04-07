@@ -1,8 +1,33 @@
-.footer {
+footer {
     position: fixed;
     left: 0;
     bottom: 0;
-    height: 60px;
+    height: auto;
     width: 100%;
     background-color:#854292 ;
+    color: white;
 }
+
+.footer-logo {
+    width: 100px;
+    height: auto;
+}
+
+.logo-spacing {
+padding: 10px 0px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+
+    list-style-type: none;
+    /* text-decoration: none; */
+}
+
+/* .footer-content-container {
+    padding: 10px 0px 10px 0px;
+} */
